@@ -10,16 +10,91 @@
 
 body {
   background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+}
+
+a {
+  padding:10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f2eee8;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #0061ff;
+}
+
+.blue-btn:hover {
+  color: white;
+  background-color: #0057e5;
+}
+
+/* DEBUG */
+.debug{
+/*   background-color: rgba(255,0,0,.2);
+  border: 1px solid black;
+ */}
+
+.debug div,
+.debug nav{
+/*   border: 1px solid black;
+ */}
+/* /DEBUG */
+
+/* HEADER */
 header {
-
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo {
+  margin: 30px 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+.menu {
+  margin: 0 20px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* /HEADER */
+
+/* MAIN */
 main {
-
+  
 }
+/* /MAIN */
 
+/* JUMBOTRON */
+.jumbotron {
+  height: 740px;
+  background-color: #b4d0e7;
+}
+/* /JUMBOTRON */
+
+/* FOOTER */
 footer {
-
+  
 }
+/* /FOOTER */
