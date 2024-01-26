@@ -59,8 +59,6 @@ a:hover {
   width: 100%; /* DEBUG */
   height: 100%;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
 }
 
 .d-flex-center {
@@ -106,12 +104,12 @@ main {
 /* /MAIN */
 
 /* JUMBOTRON */
-.jumbotron {
+#jumbotron {
   height: 740px;
   background-color: #b4d0e7;
 }
 
-.jumbotron .container {
+#jumbotron .container {
   max-width: 1200px;
   justify-content: flex-start;
   align-items: center;  
@@ -139,14 +137,17 @@ main {
 /* /JUMBOTRON */
 
 /* PLANS */
-.plans {
+#plans {
   height: 1700px;
 }
 
-.plans .container {
+#plans .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
-.container .title {
+#plans .container .title {
   margin: 160px 0 70px;
 }
 
@@ -168,8 +169,8 @@ main {
   width: 100%;
 }
 
-.columns .product .name {
-
+.name {
+  text-align: center;
 }
 
 .row {
@@ -182,62 +183,70 @@ main {
 /* /PLANS */
 
 /* PARTNER */
-.partner {
+#partner {
   height: 680px;
 }
 
-.partner .container {
+#partner .container {
+  padding: 75px 0 85px;
+}
 
+.box-image {
+  width: 600px;
+}
+
+.box-text {
+  width: 400px;
 }
 /* /PARTNER */
 
 /* OPERATIONS */
-.operations {
+#operations {
   height: 1310px;
 }
 
-.operations .container {
+#operations .container {
 
 }
 /* /OPERATIONS */
 
 /* TEAM */
-.team {
+#team {
   height: 435px;
 }
 
-.team .container {
+#team .container {
 
 }
 /* /TEAM */
 
 /* TEAM-DETAILS */
-.team-details {
+#team-details {
   height: 620px;
 
 }
 
-.team-details .container {
+#team-details .container {
   max-width: 1850px;
 }
 /* /TEAM-DETAILS */
 
 /* FREE-TRIAL */
-.free-trial {
+#free-trial {
   height: 360px;
 }
 
-.free-trial .container{
+#free-trial .container{
 
 }
 /* /FREE-TRIAL */
 
 /* FAQ */
-.faq {
+#faq {
   height: 730px;
 }
 
-.faq-container {
+#faq-container {
 
 }
 /* /FAQ */
