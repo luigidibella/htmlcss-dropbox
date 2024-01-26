@@ -54,6 +54,19 @@ a:hover {
 }
 /* /DEBUG */
 
+.container {
+  max-width: 1000px;
+  width: 100%; /* DEBUG */
+  height: 100%;
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* HEADER */
 header {
   height: 80px;
@@ -86,22 +99,14 @@ main {
 }
 /* /MAIN */
 
-.container {
-  max-width: 1200px;
-  height: 100%;
-  display: flex;
-}
-
 /* JUMBOTRON */
 .jumbotron {
   height: 740px;
   background-color: #b4d0e7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .jumbotron .container {
+  max-width: 1200px;
   justify-content: flex-start;
   align-items: center;  
   flex-direction: column;
@@ -115,6 +120,7 @@ main {
 .bottom-title {
   height: 400px;
   display: flex;
+  justify-content: space-between;
 }
 
 .b-left {
@@ -130,10 +136,79 @@ main {
 .plans {
   height: 1700px;
 }
+
+.plans .container {
+}
 /* /PLANS */
+
+/* PARTNER */
+.partner {
+  height: 680px;
+}
+
+.partner .container {
+
+}
+/* /PARTNER */
+
+/* OPERATIONS */
+.operations {
+  height: 1310px;
+}
+
+.operations .container {
+
+}
+/* /OPERATIONS */
+
+/* TEAM */
+.team {
+  height: 435px;
+}
+
+.team .container {
+
+}
+/* /TEAM */
+
+/* TEAM-DETAILS */
+.team-details {
+  height: 620px;
+
+}
+
+.team-details .container {
+  max-width: 1850px;
+}
+/* /TEAM-DETAILS */
+
+/* FREE-TRIAL */
+.free-trial {
+  height: 360px;
+}
+
+.free-trial .container{
+
+}
+/* /FREE-TRIAL */
+
+/* FAQ */
+.faq {
+  height: 730px;
+}
+
+.faq-container {
+
+}
+/* /FAQ */
 
 /* FOOTER */
 footer {
-  
+  height: 580px;
+  /* background-color: black; */
+}
+
+footer .container {
+  max-width: 1200px;
 }
 /* /FOOTER */
