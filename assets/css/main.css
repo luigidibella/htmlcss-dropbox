@@ -59,12 +59,18 @@ a:hover {
   width: 100%; /* DEBUG */
   height: 100%;
   display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .d-flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.product {
+  border: 1px solid #d0d0d3;
 }
 
 /* HEADER */
@@ -139,6 +145,36 @@ main {
 
 .plans .container {
 }
+
+.title {
+  margin: 160px 0 70px;
+}
+
+.billing {
+  display: flex;
+  justify-content: space-between;
+  max-width: 375px;
+}
+
+.columns {
+  margin: 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns .product {
+  max-width: 30%;
+  height: 975px;
+  width: 100%;
+}
+
+.row {
+  height: 265px;
+}
+
+.row .product {
+  
+}
 /* /PLANS */
 
 /* PARTNER */
@@ -205,7 +241,7 @@ main {
 /* FOOTER */
 footer {
   height: 580px;
-  /* background-color: black; */
+  background-color: black;
 }
 
 footer .container {
