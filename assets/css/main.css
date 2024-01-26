@@ -10,7 +10,7 @@
 
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -124,7 +124,7 @@ main {
 }
 
 .bottom-title {
-  height: 400px;
+  height: 100%; /* DEBUG */
   display: flex;
   justify-content: space-between;
 }
@@ -146,7 +146,7 @@ main {
 .plans .container {
 }
 
-.title {
+.container .title {
   margin: 160px 0 70px;
 }
 
@@ -166,6 +166,10 @@ main {
   max-width: 30%;
   height: 975px;
   width: 100%;
+}
+
+.columns .product .name {
+
 }
 
 .row {
