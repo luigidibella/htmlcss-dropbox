@@ -24,7 +24,9 @@ li {
 }
 
 header a,
-#free-trial a {
+#jumbotron a,
+#free-trial a,
+#plans .container .columns .product .plans-button li a{
   padding:10px 20px;
   text-decoration: none;
 }
@@ -75,9 +77,6 @@ header a:hover,
   /* align-items: center; */
 }
 
-.product {
-  border: 1px solid #d0d0d3;
-}
 
 /* HEADER */
 header {
@@ -87,8 +86,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
-  /* z-index: 999; */
+  position: fixed;
+  z-index: 999;
 }
 
 .logo {
@@ -116,6 +115,7 @@ main {
 
 /* JUMBOTRON */
 #jumbotron {
+  padding-top: 80px;
   height: 740px;
   background-color: #b4d0e7;
 }
@@ -138,10 +138,28 @@ main {
 
 .b-left {
   width: 33%;
+  position: relative;
 }
 
-.b-right{
+#jumbotron a {
+  margin: 35px 0;
+}
+
+#jumbotron i {
+  position: absolute;
+  bottom: 90px;
+  font-size: 3rem;
+}
+
+.b-right {
   width: 66%;
+  height: 400px;
+}
+
+#jumbotron img {
+  display: flex;
+  max-height: 400px;
+  float: right;
 }
 /* /JUMBOTRON */
 
@@ -176,15 +194,107 @@ main {
   width: 100%;
 }
 
-.name {
+.customer {
   text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #b4d0e7;
 }
 
+.name {
+  margin: 35px 0 25px 33px;
+}
+
+.price {
+  margin-left: 33px;
+  font-weight: bold;
+}
+
+.period {
+  margin: 20px 0 60px 33px;
+  color: #666666;
+  font-weight: normal;
+}
+
+.included {
+  margin-left: 30px;
+}
+
+.included li {
+  margin-bottom: 30px;
+}
+
+.included a {
+  text-decoration: none;
+  pointer-events: none;
+  color: black;
+}
+
+.list-icon::before {
+  font-family: 'Font Awesome 5 Free';
+}
+
+.list-icon.user::before {
+  content: '\f007';
+}
+
+.list-icon.folder::before {
+  content: '\f07b';
+}
+
+.list-icon.share-nodes::before {
+  content: '\f1e0';
+}
+
+.list-icon.check::before {
+  content: '\f00c';
+}
+
+.plans-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.buy-now {
+  margin-left: 33px;
+}
+
+.buy-now li a {
+  color: #551a8b;
+}
+
+.hr {
+  margin: 40px 0 55px 33px;
+  width: 50px;
+}
+
+.summary {
+  margin-left: 33px;
+}
+
+.summary ul{
+  margin-top: 40px;
+}
+
+.summary li {
+  margin-bottom: 30px;
+}
+
+.summary a {
+  text-decoration: none;
+  color: black;
+}
 .row {
+
 }
 
 .row .product {
   height: 265px;
+}
+
+  .product {
+  border: 1px solid #d0d0d3;
 }
 /* /PLANS */
 
@@ -411,6 +521,11 @@ footer a{
   width: 100%;
   text-decoration: none;
   margin-bottom: 20px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #61082b;
 }
 
 .bottom-footer {
