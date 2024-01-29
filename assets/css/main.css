@@ -26,7 +26,8 @@ li {
 header a,
 #jumbotron a,
 #free-trial a,
-#plans .container .columns .product .plans-button li a{
+#plans .container .columns .product .plans-button li a,
+#plans .container .row .product .plans-button li a{
   padding:10px 20px;
   text-decoration: none;
 }
@@ -210,7 +211,7 @@ main {
 }
 
 .period {
-  margin: 20px 0 60px 33px;
+  margin: 0px 0 50px 33px;
   color: #666666;
   font-weight: normal;
 }
@@ -220,7 +221,7 @@ main {
 }
 
 .included li {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .included a {
@@ -237,7 +238,11 @@ main {
   content: '\f007';
 }
 
-.list-icon.folder::before {
+.list-icon.users::before {
+  content: '\f0c0';
+}
+
+  .list-icon.folder::before {
   content: '\f07b';
 }
 
@@ -252,8 +257,9 @@ main {
 .plans-button {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  min-width: 100%;
 }
 
 .buy-now {
@@ -265,25 +271,31 @@ main {
 }
 
 .hr {
-  margin: 40px 0 55px 33px;
+  margin: 40px 0 50px 33px;
   width: 50px;
 }
 
 .summary {
-  margin-left: 33px;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
 .summary ul{
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .summary li {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .summary a {
   text-decoration: none;
   color: black;
+}
+
+#contact-us {
+  width: 230px;
+  text-align: center;
 }
 .row {
 
@@ -293,8 +305,24 @@ main {
   height: 265px;
 }
 
-  .product {
+.product {
   border: 1px solid #d0d0d3;
+  position: relative;
+}
+
+.row .product .price {
+}
+
+.price p {
+  font-weight: lighter;
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+#row-button {
+  position: absolute;
+  top: 35px;
+  left: 350px;
 }
 /* /PLANS */
 
