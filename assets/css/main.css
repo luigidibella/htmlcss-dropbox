@@ -537,6 +537,30 @@ margin: 20px 0 35px;
 .square.center {
   background-color: #f5f5f5;
 }
+
+.center-inner-square {
+  margin: 52px 50px 0;
+}
+
+.square.center .box-image{
+  width: 270px;
+  height: 95px;
+  background-image: url(/assets/img/designit.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.center hr {
+  width: 100px;
+  margin: 50px 0 45px;
+}
+
+.square.center .center-inner-square  p {
+  margin-bottom: 60px;
+}
+
+
 /* /CENTER */
 
 /* RIGHT */
