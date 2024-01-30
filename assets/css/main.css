@@ -76,7 +76,12 @@ header a:hover,
 .d-flex-center {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+}
+
+.d-flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -452,6 +457,9 @@ margin: 20px 0 35px;
   width: 50%;
   height: 50%;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-left {
@@ -473,6 +481,108 @@ margin: 20px 0 35px;
   bottom: 0;
   right: 0;
 }
+
+/* LEFT */
+.square.left .inner-square.top-left {
+  /* background-color: #d0e9cd; */
+  background-color: #a2d39b;
+}
+
+.square.left .inner-square.top-left .brand{
+  background-image: url(/assets/img/designit.svg);
+  background-color: #5d2c64;
+  height: 50px;
+  width: 150px;
+}
+
+.brand {
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.square.left .inner-square.top-right {
+  background-color: #61082b;
+}
+
+.square.left .inner-square.top-right .brand{
+  background-image: url(/assets/img/arizona_state_university.svg);
+  width: 160px;
+  height: 125px;
+}
+
+.square.left .inner-square.bottom-left {
+  background-color: #0093ce;
+}
+
+.square.left .inner-square.bottom-left .brand {
+  background-image: url(/assets/img/university_of_florida.svg);
+  width: 165px;
+  height: 40px;
+}
+
+.square.left .inner-square.bottom-right {
+  background-color: #ff1c1c;
+}
+
+.square.left .inner-square.bottom-right .brand {
+  background-image: url(/assets/img/topps.svg);
+  width: 160px;
+  height: 80px;
+}
+/* /LEFT */
+
+/* CENTER */
+.square.center {
+  background-color: #f5f5f5;
+}
+/* /CENTER */
+
+/* RIGHT */
+.square.right .inner-square.top-left {
+  background-color: #d5001f;
+}
+
+.square.right .inner-square.top-right {
+  background-color: #b4d0e7;
+}
+
+.square.right .inner-square.bottom-left {
+  background-color: #0d2481;
+}
+
+.square.right .inner-square.bottom-right {
+  background-color: #ffd830;
+}
+
+.square.right .inner-square.top-left .brand{
+  background-image: url(/assets/img/world_bicycle_relief.svg);
+  width: 165px;
+  height: 60px;
+}
+
+.square.right .inner-square.top-right .brand{
+  background-image: url(/assets/img/hearst_corp.svg);
+  width: 165px;
+  height: 60px;
+}
+
+.square.right .inner-square.bottom-left .brand{
+  background-image: url(/assets/img/lonely_planet.svg);
+  width: 165px;
+  height: 85px;
+}
+
+.square.right .inner-square.bottom-right .brand{
+  background-image: url(/assets/img/clear_channel.svg);
+  width: 160px;
+  height: 110px;
+}
+/* /RIGHT */
+
+
+
 /* /TEAM-DETAILS */
 
 /* FREE-TRIAL */
