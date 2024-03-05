@@ -241,23 +241,34 @@ main {
 }
 
 .list-icon.user::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   content: '\f007';
 }
 
 .list-icon.users::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   content: '\f0c0';
 }
 
   .list-icon.folder::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   content: '\f07b';
 }
 
 .list-icon.share-nodes::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   content: '\f1e0';
 }
 
 .list-icon.check::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   content: '\f00c';
+  color: #0061ff;
 }
 
 .plans-button {
